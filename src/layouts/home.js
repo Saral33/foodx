@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar';
+import Footer from '../components/footer/footer';
 
 export default function HomeLayout() {
  
@@ -8,8 +9,7 @@ export default function HomeLayout() {
     <div>
         {/* just is demo */}
       <Navbar/>
-      {/* <ComponentBody/>
-      <Footer/> */}
+       <Footer/>
     </div>
   );
 }
